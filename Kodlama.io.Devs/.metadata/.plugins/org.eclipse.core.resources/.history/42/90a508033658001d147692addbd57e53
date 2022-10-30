@@ -1,0 +1,17 @@
+package Kodlama.io.Devs.business.concretes;
+
+import java.util.List;
+
+import Kodlama.io.Devs.business.abstracts.LanguageService;
+import Kodlama.io.Devs.business.abstracts.Language;
+
+public class LanguageManager implements LanguageService {
+	
+	
+	@Override
+	public List<Language> getAll() {
+		
+		return null;
+	}
+
+}
